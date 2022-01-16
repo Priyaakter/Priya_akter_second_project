@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body,h1,h2,h3,h4,h5,h6,p,span,a,input,textarea,button{
+	font-family: 'Rubik', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+/*
+header section code
+*/
+header{
+	width: 100%;
+	padding: 12px 0;
+	border-bottom: 2px solid #eee;
+
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.navbar{
+	display: flex;
+
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 12px;
+	line-height: 70px;
+}
+/*banner section css*/
+#banner{
+	width: 100%;
+	padding: 40px 0;
+	text-align: center;
+}
+	.banner-content h1{
+		font-size: 56px;
+		margin-bottom: 16px;
+	}
+	.banner-content span{
+		color: #008aff;
+	}
+		.banner-content p{
+			font-weight: 300px;
+			margin-bottom: 32px;
+		}
+
+		/*about section css*/
+		#about{
+			width: 100%;
+			padding: 40px 0px;
+		}
+		.about-content{
+			display: flex;
+		}
+		.left,.right{
+			flex-basis: 50% ;
+		}
+		.left{
+			text-align: left;
+			margin-right: 16px;
+			margin-right: 16px;
+		}
+		.left{
+			text-align: right;
+			margin-left: 16px;
+			margin-left: 42px;
+			margin-bottom: 8px;
+		}
+		.left p{
+			font-weight: 300;
+			line-height: 1.5;
+			color: #7676c5;
+		}
+		.left h2{
+			color: tomato;
+			font-size: 42px;
+			margin-bottom: 10px;
+		}
+		.right h2{
+			font-size: 42px;
+			color: #3f3d56;
+		}
+		/*service section css*/
+		#service{
+			width: 100%;
+			padding: 40px 0px;
+		}
+		.service-content{
+			display: grid;
+			grid-template-columns: auto auto auto;
+		}
+		.service-item{
+			margin-left: 16px;
+			padding: 20px;
+		}
+		.service-item h4{
+			color: #000;
+			font-size: 22px;
+			font-weight: 500px;
+			margin: 10px 0px;
+		}
+		.one{
+			background-color: #FDEBED;
+		}
+		.two{
+			background-color:#EBF9F4 ;
+		}
+		.three{
+			background-color: #FFF7E8;
+		}
+		footer{
+			width:100%;
+			padding: 20px;
+			background-color: blue;
+			text-align: center;
+		}
+		.footer_menu ul li{
+			list-style: none;
+			display: inline-block;
+			margin: 0px 16px;
+		}
+		.footer_menu ul li a{
+			text-decoration: none;
+		}
+		.footer_menu ul li a i{
+			height: 40px;
+			width: 40px;
+			background-color: tomato;
+			line-height: 40px;
+			color: white;
+			font-size: 16px;
+			border-radius: 100%;
+			transition: .80s;
+		}
+		.footer_menu ul li a i:hover{
+			background-color: gray;
+			transform: rotate(360deg);
+		}
+
+	
+
